@@ -6,8 +6,20 @@ main:
   - title: "Data"
     url: /datasets/
     
+  # - title: "Talks"
+  #   url: /talks/    
+
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "CV"
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+    
+  - title: "Résumé"
     url: /cv/
+    
+  # - title: "Guide"
+  #   url: /markdown/
