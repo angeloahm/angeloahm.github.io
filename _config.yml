@@ -83,6 +83,8 @@ analytics:
 # Site Author
 author:
   name             : "Jose Antunes-Neto"
+  firstname        : "Jose"
+  lastname         : "Antunes-Neto"
   avatar           : "profile.jpeg"
   bio              : "3rd year Finance Ph.D Student"
   location         : "Evanston, IL"
