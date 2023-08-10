@@ -39,3 +39,5 @@ I have been a Teaching Assistant for many courses at Kellogg, please check the [
 <button class="btn"><i class="fa fa-download"></i> Download CV</button>
 </a>
 </footer>
+
+<object data="../files/cv.pdf" width="1000" height="1000" type='application/pdf'></object>
