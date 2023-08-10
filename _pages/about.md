@@ -12,7 +12,7 @@ I am a 4th year Finance Ph.D. student at [Kellogg School of Management](https://
 
 ## 🎓 Education
 
-- Ph.D in Finance, Kellogg School of Management, 2025 (expected)
+- Ph.D in Finance, Kellogg School of Management, 2025 (**expected**)
 - M.S. in Economics, Getulio Vargas Foundation, 2019
 - B.A. in Economics, IBMeC, 2017
 
