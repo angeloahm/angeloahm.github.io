@@ -12,13 +12,13 @@ I am a 4th year Finance Ph.D. student at [Kellogg School of Management](https://
 
 ## 🎓 Education
 
-- Ph.D in Finance, Kellogg School of Management, 2026 (expected)
+- Ph.D in Finance, Kellogg School of Management, 2025 (expected)
 - M.S. in Economics, Getulio Vargas Foundation, 2019
 - B.A. in Economics, IBMeC, 2017
 
 ## 📚 Research Experience
 
-My research experience outside academia is vast. I have worked in the field of Finance since 2017, conducting research for companies like the Brazilian Federation of Banks and the Brazilian Stock Exchange. Previously, I have also made research in Macroeconomics, being a member of the Macroeconomics Laboratory in my undergraduate.
+I have accumulated research experience in the fields of Economics and Finance since 2017. Outside the universities I have been to, I have conducted research for companies like the Brazilian Federation of Banks and the Brazilian Stock Exchange (B3), where I have dealt with high-frequency data on stock purchases and studied the behavior of investors. I have also been member of the Macroeconomics Laboratory in my undergraduate institution, tracking the Brazilian economy, writing reports and perform predictive models about inflation and GDP.
 
 ## 👨‍🏫 Teaching Experience
 
@@ -29,8 +29,12 @@ I have been a Teaching Assistant (TA) for many courses at all the schools I have
 <p>
   <div>
     <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+    <img align="center" alt="Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
+    <img align="center" alt="Pandas" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
     <img align="center" alt="R" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-plain.svg">
     <img align="center" alt="Latex" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg">
+    <img align="center" alt="Markdown" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" />
+    <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
   </div>
 </p>
 <br>
