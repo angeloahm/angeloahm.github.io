@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching Assistance"
+title: "Teaching Assistance <i class="fa-solid fa-chalkboard-user"></i>"
 permalink: /teaching/
 author_profile: true
 ---
@@ -58,10 +58,11 @@ Prof. Carola Frydman, Winter 2022 ([Course Link](https://class-descriptions.nort
   - Financial Econometrics - 2018 - Prof. Pedro Valls
   - Econometrics I - 2019 - Prof. Bruno Ferman
   - Econometrics II - 2019 - Prof. Bruno Giovannetti
-  - Introduction to Data Science - 2019 - Prof. Marcelo Fernandes  
+  - Introduction to Data Science - 2019 - Prof. Marcelo Fernandes
 
-  ### IBMeC
-  - Macroeconomics I - 2015 - Prof. Helio Berni
-  - Econometrics I - 2017 - Prof. Marcio Salvato
-  
+### IBMeC
+
+- Macroeconomics I - 2015 - Prof. Helio Berni
+- Econometrics I - 2017 - Prof. Marcio Salvato
+
 </details>

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV <i class="fa-solid fa-user-tie"></i>"
 permalink: /cv/
 author_profile: true
 redirect_from:
