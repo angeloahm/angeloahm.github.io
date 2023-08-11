@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Research <i class="fa-solid fa-book"></i>"
 permalink: /publications/
 author_profile: true
 ---
