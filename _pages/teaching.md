@@ -51,19 +51,22 @@ Prof. Carola Frydman, Winter 2022 ([Course Link](https://class-descriptions.nort
 
 ---
 
-<details>
-  <summary>⏳ Previous Courses</summary>
-  <h3>São Paulo School of Economics</h3>
-<ul>
-  <li>Financial Econometrics - 2018 - Prof. Pedro Valls</li>
-  <li>Econometrics I - 2019 - Prof. Bruno Ferman</li>
-  <li>Econometrics II - 2019 - Prof. Bruno Giovannetti</li>
-  <li>Introduction to Data Science - 2019 - Prof. Marcelo Fernandes</li>
-</ul>
+<div class="toggle">
+  <button class="toggle-btn">⏳ Previous Courses</button>
+  <div class="toggle-content">
+    <h3>São Paulo School of Economics</h3>
+    <ul>
+      <li>Financial Econometrics - 2018 - Prof. Pedro Valls</li>
+      <li>Econometrics I - 2019 - Prof. Bruno Ferman</li>
+      <li>Econometrics II - 2019 - Prof. Bruno Giovannetti</li>
+      <li>Introduction to Data Science - 2019 - Prof. Marcelo Fernandes</li>
+    </ul>
 
-<h3>IBMeC</h3>
-<ul>
-  <li>Macroeconomics I - 2015 - Prof. Helio Berni</li>
-  <li>Econometrics I - 2017 - Prof. Marcio Salvato</li>
-</ul>
-</details>
+    <h3>IBMeC</h3>
+    <ul>
+      <li>Macroeconomics I - 2015 - Prof. Helio Berni</li>
+      <li>Econometrics I - 2017 - Prof. Marcio Salvato</li>
+    </ul>
+
+  </div>
+</div>
