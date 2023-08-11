@@ -48,3 +48,20 @@ Prof. Erez Levy, Fall 2021 ([Course Link](https://www.kellogg.northwestern.edu/c
 ### BUS_INST-312: Business and Economic Institutions in Historical Perspectives
 
 Prof. Carola Frydman, Winter 2022 ([Course Link](https://class-descriptions.northwestern.edu/4810/WCAS/BUS_INST/25643))
+
+---
+
+<details>
+  <summary>⏳ Previous Courses</summary>
+  
+  ### São Paulo School of Economics
+  - Financial Econometrics - 2018 - Prof. Pedro Valls
+  - Econometrics I - 2019 - Prof. Bruno Ferman
+  - Econometrics II - 2019 - Prof. Bruno Giovannetti
+  - Introduction to Data Science - 2019 - Prof. Marcelo Fernandes  
+
+  ### IBMeC
+  - Macroeconomics I - 2015 - Prof. Helio Berni
+  - Econometrics I - 2017 - Prof. Marcio Salvato
+  
+</details>
