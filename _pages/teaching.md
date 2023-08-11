@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching Assistance <i class="fa-solid fa-chalkboard-user"></i>"
+title: "Teaching Assistance"
 permalink: /teaching/
 author_profile: true
 ---
