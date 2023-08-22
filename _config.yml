@@ -8,7 +8,7 @@
 # Site Settings
 locale: 'en-US'
 title: 'Home'
-logo: 'logo.png'
+logo: 
 foot_logo: 'foot_logo.png'
 title_separator: '-'
 name: &name 'Angelo Avelar Hermeto Mendes'
@@ -83,7 +83,7 @@ author:
   name: 'Angelo Mendes'
   firstname: 'Angelo'
   lastname: 'Mendes'
-  avatar: 'profile.jpeg'
+  avatar: 'profile.png'
   bio: '3rd year Economics Ph.D Student'
   location: 'Minneapolis, MN'
   employer: 'University of Minnesota'
