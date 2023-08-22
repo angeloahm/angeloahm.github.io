@@ -3,8 +3,8 @@ main:
   - title: "Research"
     url: /publications/
 
-  - title: "Data"
-    url: /datasets/
+  #- title: "Data"
+  #  url: /datasets/
     
   # - title: "Talks"
   #   url: /talks/    
