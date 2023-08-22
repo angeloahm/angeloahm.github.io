@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year Economics Ph.D. student at [University of Minnesota](https://cla.umn.edu/economics/graduate/degrees/phd-economics) interested in Macroeconomics and its intersection with Money, Banking, and Finance. 
+I am a 3rd year Economics Ph.D. student at [University of Minnesota](https://cla.umn.edu/economics/graduate/degrees/phd-economics) interested in Macroeconomics and its intersection with Money, Banking, and Finance. My research papers can be found [here](/publications).
 
 
 ## 🎓 Education
