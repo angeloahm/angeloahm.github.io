@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year Economics Ph.D. student at [University of Minnesota](https://cla.umn.edu/economics/graduate/degrees/phd-economics). My interests are in Macroeconomics. You can check all my research papers in the [Research](/research/) page.
+I am a 3rd year Economics Ph.D. student at [University of Minnesota](https://cla.umn.edu/economics/graduate/degrees/phd-economics) interested in Macroeconomics and its intersection with Money, Banking, and Finance. 
+
 
 ## 🎓 Education
 
