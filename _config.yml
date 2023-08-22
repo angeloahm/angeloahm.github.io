@@ -9,7 +9,7 @@
 locale: 'en-US'
 title: 'Home'
 logo: 
-foot_logo: 'foot_logo.png'
+foot_logo: 
 title_separator: '-'
 name: &name 'Angelo Avelar Hermeto Mendes'
 description: &description 'Economics Ph.D University of Minnesota'
