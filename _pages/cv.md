@@ -11,7 +11,7 @@ redirect_from:
 
 Here is the latest version of my CV:
 
-<a href="https://github.com/joseparreiras/personal-cv/blob/master/cv.pdf">
+<a href="https://github.com/angeloahm/personal-cv/blob/master/CV___Angelo_Mendes.pdf">
 <button class="btn"><i class="fa fa-download"></i> Download</button>
 </a>
 
