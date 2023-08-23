@@ -6,10 +6,10 @@ authors:
   - firstname: "Angelo"
     lastname: "Mendes"
     url: "https://angeloahm.github.io"
--   firstname: "Gabriel"
+  - firstname: "Gabriel"
     lastname: "Toledo"
     url: "https://gstoledo.github.io/"
--   firstname: "Fernando"
+  - firstname: "Fernando"
     lastname: "Lopes"
 keywords: "over-the-counter, liquidity, learning by holding, opaqueness"
 date: 2023-08-01
