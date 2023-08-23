@@ -10,7 +10,7 @@ authors:
     url: "https://gstoledo.github.io/"
 -   firstname: "Fernando"
     lastname: "Lopes"
-permalink: /publication/the_impact_of_news_on_the_dispersion_of_intraday_risk
+permalink: /publication/otc
 date: 2023-08-01
 venue: "Working Paper"
 keywords: "over-the-counter, liquidity, learning by holding, opaqueness"
