@@ -20,6 +20,6 @@ keywords: "over-the-counter, liquidity, learning by holding, opaqueness"
 
 Draft available here:
 
-<a href="../files/otc.pdf">
+<a href="../files/LMT_draft.pdf">
 <button class="btn"><i class="fa fa-download"></i> Download Draft</button>
 </a>
