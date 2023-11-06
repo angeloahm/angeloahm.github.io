@@ -14,7 +14,7 @@ authors:
     url: "https://sites.google.com/site/pierlucapannella/home"
 keywords: "Distortions, Firm Entry, Production Network, Aggregate Misallocation"
 date: 2023-08-17
-venue: "Economic Theory (Forthcoming)"
+venue: "Economic Theory"
 ---
 
 **Abstract**: This paper explores how sectoral linkages amplify or mitigate misallocation at intensive
