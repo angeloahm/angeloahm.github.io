@@ -13,7 +13,7 @@ authors:
     lastname: "Pannella"
     url: "https://sites.google.com/site/pierlucapannella/home"
 keywords: "Distortions, Firm Entry, Production Network, Aggregate Misallocation"
-date: 2023-08-17
+date: 2024-08-01
 venue: "Economic Theory"
 ---
 
