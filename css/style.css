@@ -322,7 +322,8 @@ p { margin: 0 0 1.15rem; }
   margin-right: .5rem;
 }
 
-.paper__links {
+.paper__links,
+.course__links {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
