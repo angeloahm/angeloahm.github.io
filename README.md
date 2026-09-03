@@ -15,6 +15,7 @@ GitHub Pages serves it within a minute.
 | `teaching.html`   | Teaching experience                         |
 | `css/style.css`   | All styling. UMN maroon `#7A0019` is set once, as `--maroon` at the top |
 | `js/theme.js`     | Light/dark toggle. The no-flash initializer is inline in each page's `<head>` |
+| `favicon.ico` + `favicon-32.png` + `apple-touch-icon.png` | UMN Block M browser-tab icon (official mark from umn.edu) |
 | `img/photo.jpg`   | Profile photo (square crop works best)      |
 | `files/`          | CV, papers, and slides (see below)           |
 
