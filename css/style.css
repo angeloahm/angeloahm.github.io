@@ -146,45 +146,22 @@ a:hover {
   border-bottom-color: var(--accent);
 }
 
-/* ---------- Hero (home) ---------- */
+/* ---------- Hero / intro (home) ---------- */
 
-.hero {
-  display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 2.25rem;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-
+/* Photo: stacked circle by default (mobile). */
 .hero__photo {
-  width: 180px;
-  height: 180px;
+  display: block;
+  width: 132px;
+  height: 132px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--bg-soft);
   border: 1px solid var(--rule);
-}
-
-/* Wide screens: bigger photo, shifted left into the empty gutter beside the
-   centred text column. margin-left is pulled at most as far as the gutter
-   ((viewport - measure) / 2) allows, capped so the text still aligns with the
-   body below on very wide screens. Never overflows the viewport. */
-@media (min-width: 62rem) {
-  .hero {
-    grid-template-columns: 240px 1fr;
-    gap: 2.75rem;
-    margin-left: max(-17.75rem, (44rem - 100vw) / 2);
-  }
-
-  /* Portrait rectangle on desktop; the circle is kept for the stacked
-     mobile layout. object-fit: cover trims the square source to portrait. */
-  .hero__photo { width: 240px; height: 300px; border-radius: 4px; }
-
-  .hero__name { font-size: 2.25rem; }
+  margin: 0 0 1.5rem;
 }
 
 .hero__name {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.15;
@@ -202,7 +179,38 @@ a:hover {
 .hero__affil {
   font-size: 1rem;
   color: var(--muted);
-  margin: 0;
+  margin: 0 0 1.75rem;
+}
+
+/* Tablet and up: float the photo so the name and intro text flow beside it,
+   top-aligned, filling the space to the right and below. */
+@media (min-width: 34rem) {
+  .hero__photo {
+    float: left;
+    width: 180px;
+    height: 225px;
+    border-radius: 4px;
+    margin: .3rem 2rem .75rem 0;
+  }
+
+  .hero__name { font-size: 2rem; }
+
+  /* Keep the Contact section (and anything after) below the photo. */
+  h2.section { clear: left; }
+}
+
+/* Wide screens: bigger photo pulled into the empty left gutter. margin-left is
+   clamped to the gutter ((measure - viewport) / 2) so the text stays clear of
+   the photo and it never crosses the viewport edge. */
+@media (min-width: 62rem) {
+  .hero__photo {
+    width: 240px;
+    height: 300px;
+    margin-left: max(-17.75rem, (44rem - 100vw) / 2);
+    margin-right: 2.75rem;
+  }
+
+  .hero__name { font-size: 2.25rem; }
 }
 
 /* ---------- Link row (icons/buttons under the bio) ---------- */
@@ -381,15 +389,6 @@ p { margin: 0 0 1.15rem; }
 
 @media (max-width: 34rem) {
   body { font-size: 1rem; }
-
-  .hero {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: left;
-  }
-
-  .hero__photo { width: 132px; height: 132px; }
-  .hero__name { font-size: 1.75rem; }
 
   .masthead { margin-bottom: 2rem; }
   .nav { gap: 1.25rem; }
