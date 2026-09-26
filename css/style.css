@@ -113,6 +113,10 @@ a:hover {
   align-items: baseline;
   justify-content: space-between;
   gap: .75rem 1.5rem;
+  /* Full-width header: name pinned left, nav right, independent of the
+     centred body column. */
+  max-width: none;
+  padding: 0 1.5rem;
 }
 
 .masthead__name {
@@ -191,13 +195,11 @@ a:hover {
   flex-direction: column;
 }
 
-.home > .home__head,
 .home > .side,
 .home > .main {
   display: contents;
 }
 
-.hero__photo { order: -1; }          /* photo first when stacked (mobile) */
 .contact { order: 1; margin-top: 2.5rem; }   /* contact last when stacked */
 
 .contact .section { margin-top: 0; }
@@ -209,25 +211,16 @@ a:hover {
   .home {
     display: grid;
     grid-template-columns: 180px 1fr;
-    grid-template-areas:
-      "head head"
-      "side main";
     column-gap: 2rem;
     align-items: start;
   }
 
-  .home > .home__head,
   .home > .side,
   .home > .main {
     display: block;
   }
 
-  .home__head { grid-area: head; margin-bottom: .75rem; }
-  .side { grid-area: side; }
-  .main { grid-area: main; }
-
   .hero__photo {
-    order: 0;
     width: 180px;
     height: 225px;
     border-radius: 4px;
