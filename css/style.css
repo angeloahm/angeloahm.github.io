@@ -176,7 +176,9 @@ a:hover {
     margin-left: max(-17.75rem, (44rem - 100vw) / 2);
   }
 
-  .hero__photo { width: 240px; height: 240px; }
+  /* Portrait rectangle on desktop; the circle is kept for the stacked
+     mobile layout. object-fit: cover trims the square source to portrait. */
+  .hero__photo { width: 240px; height: 300px; border-radius: 4px; }
 
   .hero__name { font-size: 2.25rem; }
 }
