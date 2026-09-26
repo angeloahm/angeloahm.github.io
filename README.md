@@ -43,6 +43,11 @@ To add a course, copy a `<div class="course">` block in `teaching.html`.
 Placeholder links are left as HTML comments (`<!-- ... -->`) — uncomment and fill in
 the URL when you have it.
 
+**After editing `css/style.css` or `js/theme.js`,** bump the `?v=...` version on
+their `<link>`/`<script>` tags in all three HTML pages (they currently read
+`?v=20260926`). Browsers cache these files aggressively; changing the version
+string forces returning visitors to fetch the new copy instead of a stale one.
+
 ## Local preview
 
     python -m http.server 8000
