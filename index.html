@@ -26,7 +26,7 @@
 (function(){try{var t=localStorage.getItem('theme');
 if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 </script>
-<link rel="stylesheet" href="css/style.css?v=20260926.3">
+<link rel="stylesheet" href="css/style.css?v=20260926.4">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -93,7 +93,23 @@ if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)
 
 <main class="wrap">
 
-  <img class="hero__photo" src="img/photo.jpg" alt="Angelo Mendes">
+  <div class="home">
+
+  <div class="side">
+    <img class="hero__photo" src="img/photo.jpg" alt="Angelo Mendes">
+
+    <div class="contact">
+      <h2 class="section">Contact</h2>
+      <p class="paper__notes">
+        <span>Department of Economics, University of Minnesota</span>
+        <span>4-101 Hanson Hall, 1925 Fourth Street South</span>
+        <span>Minneapolis, MN 55455</span>
+        <span><a href="mailto:mende449@umn.edu">mende449@umn.edu</a></span>
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
   <h1 class="hero__name">Angelo Mendes</h1>
   <p class="hero__title">Ph.D. Candidate in Economics</p>
   <p class="hero__affil">University of Minnesota</p>
@@ -128,15 +144,9 @@ if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)
     <li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=YOUR_ID">SSRN</a></li>
     -->
   </ul>
+  </div><!-- .main -->
 
-  <h2 class="section">Contact</h2>
-
-  <p class="paper__notes">
-    <span>Department of Economics, University of Minnesota</span>
-    <span>4-101 Hanson Hall, 1925 Fourth Street South</span>
-    <span>Minneapolis, MN 55455</span>
-    <span><a href="mailto:mende449@umn.edu">mende449@umn.edu</a></span>
-  </p>
+  </div><!-- .home -->
 
 </main>
 
@@ -147,7 +157,7 @@ if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)
   </div>
 </footer>
 
-<script src="js/theme.js?v=20260926.3"></script>
+<script src="js/theme.js?v=20260926.4"></script>
 
 </body>
 </html>

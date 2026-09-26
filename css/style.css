@@ -148,7 +148,8 @@ a:hover {
 
 /* ---------- Hero / intro (home) ---------- */
 
-/* Photo: stacked circle by default (mobile). */
+/* Photo. Circle when stacked (mobile); a portrait rectangle in the sidebar
+   on wider screens (overridden below). */
 .hero__photo {
   display: block;
   width: 132px;
@@ -182,33 +183,69 @@ a:hover {
   margin: 0 0 1.75rem;
 }
 
-/* Tablet and up: float the photo so the name and intro text flow beside it,
-   top-aligned, filling the space to the right and below. */
+/* Mobile: one stacked column. The photo and contact live in .side and the
+   text in .main; display: contents flattens both so everything stacks in
+   reading order, and .contact is ordered last (below the intro). */
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home > .side,
+.home > .main {
+  display: contents;
+}
+
+.contact {
+  order: 1;
+  margin-top: 2.5rem;
+}
+
+.contact .section { margin-top: 0; }
+.contact .paper__notes { margin-bottom: 0; }
+
+/* Tablet and up: two columns -- photo + contact on the left, text on the
+   right, both top-aligned. */
 @media (min-width: 34rem) {
+  .home {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  .home > .side,
+  .home > .main {
+    display: block;
+  }
+
+  .contact { order: 0; margin-top: 0; }
+
   .hero__photo {
-    float: left;
     width: 180px;
     height: 225px;
     border-radius: 4px;
-    margin: .3rem 2rem .75rem 0;
+    margin: 0;
   }
 
   .hero__name { font-size: 2rem; }
 
-  /* Keep the Contact section (and anything after) below the photo. */
-  h2.section { clear: left; }
+  /* Contact sits under the photo in the sidebar. */
+  .contact { margin-top: 2rem; }
 }
 
-/* Wide screens: bigger photo pulled into the empty left gutter. margin-left is
-   clamped to the gutter ((measure - viewport) / 2) so the text stays clear of
-   the photo and it never crosses the viewport edge. */
+/* Wide screens: bigger photo, and the whole two-column block is pulled into
+   the empty left gutter so the text aligns with the body while the sidebar
+   sits to its left. margin-left is clamped to the gutter so it never crosses
+   the viewport edge. */
 @media (min-width: 62rem) {
-  .hero__photo {
-    width: 240px;
-    height: 300px;
+  .home {
+    grid-template-columns: 240px 1fr;
+    column-gap: 2.75rem;
     margin-left: max(-17.75rem, (44rem - 100vw) / 2);
-    margin-right: 2.75rem;
   }
+
+  .hero__photo { width: 240px; height: 300px; }
 
   .hero__name { font-size: 2.25rem; }
 }

@@ -45,7 +45,7 @@ the URL when you have it.
 
 **After editing `css/style.css` or `js/theme.js`,** bump the `?v=...` version on
 their `<link>`/`<script>` tags in all three HTML pages (they currently read
-`?v=20260926.3`). Browsers cache these files aggressively; changing the version
+`?v=20260926.4`). Browsers cache these files aggressively; changing the version
 string forces returning visitors to fetch the new copy instead of a stale one.
 
 ## Local preview
