@@ -150,19 +150,35 @@ a:hover {
 
 .hero {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 180px 1fr;
   gap: 2.25rem;
-  align-items: start;
+  align-items: center;
   margin-bottom: 3rem;
 }
 
 .hero__photo {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--bg-soft);
   border: 1px solid var(--rule);
+}
+
+/* Wide screens: bigger photo, shifted left into the empty gutter beside the
+   centred text column. margin-left is pulled at most as far as the gutter
+   ((viewport - measure) / 2) allows, capped so the text still aligns with the
+   body below on very wide screens. Never overflows the viewport. */
+@media (min-width: 62rem) {
+  .hero {
+    grid-template-columns: 240px 1fr;
+    gap: 2.75rem;
+    margin-left: max(-17.75rem, (44rem - 100vw) / 2);
+  }
+
+  .hero__photo { width: 240px; height: 240px; }
+
+  .hero__name { font-size: 2.25rem; }
 }
 
 .hero__name {
